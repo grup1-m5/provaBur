@@ -16,21 +16,21 @@ public class Bifurcacions2 {
         System.out.print("Escriu algo");
         
         String ciutat;
-        int r;
+        int r22;
         
         ciutat = in.nextLine();
-        r = in.nextInt();
+        r22 = in.nextInt();
         
 
-        if (ciutat.equals("Italia") && r == 1) System.out.print("Bé\n");
-        else if (ciutat.equals("EU") && r == 2) System.out.print("Bé\n");
-        else if (ciutat.equals("UE") && r == 3) System.out.print("Bé\n");
+        if (ciutat.equals("Italia") && r22 == 1) System.out.print("Bé\n");
+        else if (ciutat.equals("EU") && r22 == 2) System.out.print("Bé\n");
+        else if (ciutat.equals("UE") && r22 == 3) System.out.print("Bé\n");
 
         
         
-        if (ciutat.equals("Tokio") && r == 1) System.out.print("Bé\n");
-        else if (ciutat.equals("New York") && r == 2) System.out.print("Bé\n");
-        else if (ciutat.equals("Mexic") && r == 3) System.out.print("Bé\n");
+        if (ciutat.equals("Tokio") && r22 == 1) System.out.print("Bé\n");
+        else if (ciutat.equals("New York") && r22 == 2) System.out.print("Bé\n");
+        else if (ciutat.equals("Mexic") && r22 == 3) System.out.print("Bé\n");
 
         else System.out.print("Mal\n");
     }
