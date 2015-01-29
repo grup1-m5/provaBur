@@ -3,8 +3,8 @@ package bifurcacions2;
 import java.util.Scanner;
 /**
  *
- * @author I.Ch.
- * @version 1.0
+ * @author Aleix
+ * @version 2.0
  */
 
 
