@@ -21,11 +21,17 @@ public class Bifurcacions2 {
         ciutat = in.nextLine();
         r = in.nextInt();
         
+
+        if (ciutat.equals("Italia") && r == 1) System.out.print("Bé\n");
+        else if (ciutat.equals("EU") && r == 2) System.out.print("Bé\n");
+        else if (ciutat.equals("UE") && r == 3) System.out.print("Bé\n");
+
         
         
         if (ciutat.equals("Tokio") && r == 1) System.out.print("Bé\n");
         else if (ciutat.equals("New York") && r == 2) System.out.print("Bé\n");
         else if (ciutat.equals("Mexic") && r == 3) System.out.print("Bé\n");
+
         else System.out.print("Mal\n");
     }
     
